@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mod By SL
+# Mod By Rakha-VPN
 #echo "$crot    ALL=(ALL:ALL) ALL" >> /etc/sudoers;
 wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sshd_config;
 systemctl restart sshd;
